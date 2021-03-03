@@ -1,0 +1,32 @@
+@import 'antd/dist/antd.css';
+
+.main {
+    height: 100vh;
+    .logo {
+        height: 32px;
+        margin: 16px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    .site-layout {
+        &-top {
+            background: #fff;
+            padding: 0;
+        }
+        &-content {
+            margin: 10px 15px;
+            &-breadcrumb {
+                margin-bottom: 10px;
+            }
+            &-inner {
+                padding: 10px;
+                background: #fff;
+                min-height: calc(100% - 32px);
+            }
+        }
+    }
+}
+.bundle-loading {
+    position: flex;
+    top: 0;
+}

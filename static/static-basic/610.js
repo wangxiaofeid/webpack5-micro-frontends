@@ -1,0 +1,1 @@
+(self.webpackChunkbasic=self.webpackChunkbasic||[]).push([[610],{5610:(e,t,n)=>{"use strict";n.r(t),n.d(t,{splitComponent:()=>a,injectStore:()=>i});var r=n(4661),c=n.n(r),s=n(3760);function a(e,t={}){const n=c().lazy((()=>e));return e=>c().createElement(s.Provider,t,c().createElement(n,e))}function i(e){return(0,s.inject)((e=>e))((0,s.observer)((t=>c().createElement(e,t))))}}}]);

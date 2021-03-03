@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "start": "http-server ./static -P 8080 -g"
+    }
+}
