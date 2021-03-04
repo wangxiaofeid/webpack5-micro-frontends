@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Breadcrumb } from 'antd';
+import Cron from '@xiaofei.wang/react-cron';
 import { injectStore } from 'basic/utils';
 
 function Schema({ globalStore }) {
@@ -14,6 +15,7 @@ function Schema({ globalStore }) {
             </Breadcrumb>
             <div className="site-layout-content-inner">
                 Schema <br />
+                <Cron />
                 <Link to="/basic/home">返回首页</Link>
             </div>
         </>

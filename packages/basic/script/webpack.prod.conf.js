@@ -11,10 +11,12 @@ const outputFolder = `/static-${name}/`;
 
 module.exports = merge(baseWebpackConfig, {
     mode: 'production',
-    // mode: 'development',
     output: {
         path: path.join(__dirname, `../../../static${outputFolder}`),
         publicPath: 'auto',
+    },
+    optimization: {
+        chunkIds: 'named',
     },
     plugins: [
         new webpack.ProgressPlugin(),

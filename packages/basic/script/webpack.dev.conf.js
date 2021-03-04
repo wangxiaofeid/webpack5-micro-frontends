@@ -18,6 +18,7 @@ module.exports = merge(baseWebpackConfig, {
         historyApiFallback: true,
     },
     devtool: 'eval-source-map',
+
     plugins: [
         new ModuleFederationPlugin({
             name,

@@ -1,0 +1,1 @@
+(self.webpackChunkbasic=self.webpackChunkbasic||[]).push([["src_pages_Exception_404_js"],{11716:(s,e,c)=>{"use strict";function u(){return 404}c.r(e),c.d(e,{default:()=>u})}}]);

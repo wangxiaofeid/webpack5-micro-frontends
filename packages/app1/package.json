@@ -23,6 +23,7 @@
         "webpack-merge": "5.7.3"
     },
     "dependencies": {
+        "@xiaofei.wang/react-cron": "1.0.3",
         "antd": "4.13.0",
         "core-js": "3.9.0",
         "history": "5.0.0",
