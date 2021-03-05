@@ -11,6 +11,7 @@ export default function App() {
             {childRouters.map((item) => (
                 <Route key={item.path} path={item.path} component={item.component} />
             ))}
+            <Route path="/app2/*" component={React.lazy(() => import('./pages/App2Entry'))} />
         </Layout>
     );
 }

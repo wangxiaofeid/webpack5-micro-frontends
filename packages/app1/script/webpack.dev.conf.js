@@ -28,16 +28,14 @@ module.exports = merge(baseWebpackConfig, {
             exposes: {
                 './router': './src/router',
             },
-            shared: [
-                {
-                    ...deps,
-                    react: { singleton: true, requiredVersion: deps.react },
-                    'react-dom': {
-                        singleton: true,
-                        requiredVersion: deps['react-dom'],
-                    },
+            shared: {
+                ...deps,
+                react: { singleton: true, requiredVersion: deps.react },
+                'react-dom': {
+                    singleton: true,
+                    requiredVersion: deps['react-dom'],
                 },
-            ],
+            },
         }),
     ],
 });

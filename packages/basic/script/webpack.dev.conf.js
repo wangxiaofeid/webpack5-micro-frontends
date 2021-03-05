@@ -25,21 +25,20 @@ module.exports = merge(baseWebpackConfig, {
             filename: 'remoteEntry.js',
             remotes: {
                 app1: 'app1@http://localhost:3002/remoteEntry.js',
+                app2: 'app2@http://localhost:3003/remoteEntry.js',
             },
             exposes: {
                 './Layout': './src/Layout',
                 './utils': './src/utils',
             },
-            shared: [
-                {
-                    ...deps,
-                    react: { singleton: true, requiredVersion: deps.react },
-                    'react-dom': {
-                        singleton: true,
-                        requiredVersion: deps['react-dom'],
-                    },
+            shared: {
+                ...deps,
+                react: { singleton: true, requiredVersion: deps.react },
+                'react-dom': {
+                    singleton: true,
+                    requiredVersion: deps['react-dom'],
                 },
-            ],
+            },
         }),
     ],
 });

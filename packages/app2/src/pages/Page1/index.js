@@ -12,10 +12,10 @@ function Flow({ globalStore }) {
     return (
         <>
             <Breadcrumb className="site-layout-content-breadcrumb">
-                <Breadcrumb.Item>图谱构建</Breadcrumb.Item>
-                <Breadcrumb.Item>数据流</Breadcrumb.Item>
+                <Breadcrumb.Item>应用2</Breadcrumb.Item>
+                <Breadcrumb.Item>页面1</Breadcrumb.Item>
             </Breadcrumb>
-            <div className="site-layout-content-inner">数据流</div>
+            <div className="site-layout-content-inner">演示 remoteEntry.js 懒加载</div>
         </>
     );
 }

@@ -1,0 +1,1 @@
+(self.webpackChunkbasic=self.webpackChunkbasic||[]).push([["src_pages_App2Entry_index_js"],{35852:(e,n,t)=>{"use strict";t.r(n),t.d(n,{default:()=>u});var a=t(54661),p=t.n(a),c=t(16530),r=t(14241),s=t.n(r);function u(){return p().createElement(p().Fragment,null,s().map((e=>p().createElement(c.Route,{key:e.path,path:e.path,component:e.component}))))}}}]);

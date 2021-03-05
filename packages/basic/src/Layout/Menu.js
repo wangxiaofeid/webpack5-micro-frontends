@@ -15,11 +15,15 @@ const menuTree = [
         path: '/basic/store',
     },
     {
-        title: '图谱构建',
+        title: '应用1',
         children: [
-            { title: '图谱定义', path: '/app1/schema' },
-            { title: '数据抽取', path: '/app1/flow' },
+            { title: '页面1', path: '/app1/page1' },
+            { title: '页面2', path: '/app1/page2' },
         ],
+    },
+    {
+        title: '应用2',
+        children: [{ title: '页面1', path: '/app2/page1' }],
     },
 ];
 

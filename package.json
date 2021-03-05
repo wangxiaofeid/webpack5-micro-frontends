@@ -1,5 +1,6 @@
 {
     "scripts": {
-        "start": "http-server ./static -P 8080 -g"
+        "start": "http-server ./static -P 8080 -g",
+        "build": "sh build.sh"
     }
 }

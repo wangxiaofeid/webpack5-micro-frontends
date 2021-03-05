@@ -1,16 +1,13 @@
 import React from 'react';
 
-const SchemaPage = React.lazy(() => import('./pages/Schema'));
-const FlowPage = React.lazy(() => import('./pages/Flow'));
-
 const routes = [
     {
-        path: '/schema',
-        component: SchemaPage,
+        path: '/page1',
+        component: React.lazy(() => import('./pages/page1')),
     },
     {
-        path: '/flow',
-        component: FlowPage,
+        path: '/page2',
+        component: React.lazy(() => import('./pages/page2')),
     },
 ];
 
